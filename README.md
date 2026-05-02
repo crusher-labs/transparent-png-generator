@@ -28,4 +28,4 @@ A minimalist web tool to generate and download transparent PNG files of any aspe
 ## **Live Tool**
 
 You can access the live tool here:
-👉 [**Transparent PNG Generator**](https://itxcrusher.github.io/transparent-png-generator/)
+👉 [**Transparent PNG Generator**](https://crusher-labs.github.io/transparent-png-generator/)
