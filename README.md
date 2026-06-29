@@ -10,7 +10,7 @@ A minimalist web tool to generate and download transparent PNG files of any aspe
 * **Aspect Ratio Presets:** Quickly select common ratios like 16:9, 4:3, and 1:1.
 * **Live Preview:** See a representation of your canvas dimensions in real-time.
 * **Instant Download:** Generate and download your transparent PNG with a single click.
-* **Responsive Design:** Works seamlessly on desktop and mobile devices.
+* **Responsive Design:** Works on desktop and mobile devices.
 
 ---
 
