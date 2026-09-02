@@ -1,31 +1,25 @@
-# **Transparent PNG Generator**
+# Transparent PNG Generator
 
-A minimalist web tool to generate and download transparent PNG files of any aspect ratio or dimension.
+Generate a blank transparent PNG (or a tinted, see-through one at any opacity) at any size up to 8192 px, glazed into a Georgian sash window, six panes over six, whose frame resizes to the aspect ratio; the editor's transparency checkerboard shows through the glass. Presets for HD, square, link preview, banner, story, icon, spacer and a single pixel; download the PNG, copy a data URL or a CSS snippet. Nothing uploaded.
 
----
+Live: <https://crusher-labs.github.io/transparent-png-generator/>
 
-## **Features**
+## The world: Window pane
 
-* **Custom Dimensions:** Specify the exact width and height in pixels for your image.
-* **Aspect Ratio Presets:** Quickly select common ratios like 16:9, 4:3, and 1:1.
-* **Live Preview:** See a representation of your canvas dimensions in real-time.
-* **Instant Download:** Generate and download your transparent PNG with a single click.
-* **Responsive Design:** Works on desktop and mobile devices.
+This tool is a **world page** (crusher-labs standard since 2026-09-02): the page is a committed physical object from the tool's own world, with its own CSS, fonts and mode. It does not load `crusher-ui-kit` and has no theme switcher. The brief for this world lives in the workspace atlas (`x:/crusher-labs/docs/context/tools-theme-atlas.md`); change the atlas before changing the world.
 
----
+## Privacy
 
-## **How to Use**
+This tool runs entirely in your browser. There is no server. No data is uploaded, no telemetry, no analytics. The only network requests fired are the page-load fetches for Google Fonts; your inputs and outputs never leave the tab. The "Suggest an improvement" form posts to Web3Forms only when you submit it.
 
-1. **Open the Tool:** Navigate to the live URL.
-2. **Set Dimensions:**
+## Contract
 
-   * Enter a custom width and height in the input fields.
-   * **OR**, click one of the preset buttons (e.g., “16:9”) to auto-fill the dimensions.
-3. **Download:** Click the “Download PNG” button. The file will be saved to your device, named according to its dimensions (e.g., `transparent_1920x1080.png`).
+Validated by `tools-hub/scripts/check-static.mjs` (world-page contract: SEO block, CSP, feedback form, hub link, prose + FAQ, no kit pins). Run `npm run check:static` from `repos/tools-hub` before committing.
 
----
+## Development
 
-## **Live Tool**
+Open `index.html` directly in a browser. No build, no dependencies. Verify at 1440 and 390 via Playwright `setViewportSize` before shipping.
 
-You can access the live tool here:
-👉 [**Transparent PNG Generator**](https://crusher-labs.github.io/transparent-png-generator/)
+## License
+
+MIT.
